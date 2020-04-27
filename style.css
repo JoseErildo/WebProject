@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+body{
+    background-color: #303f4e;
+    margin:0px;
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+    font-family: 'Oswald';
+}
+
+/*Menu Bar*//*---------------------------------------------------------------------*/
+
+ul#fields{
+    top: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    text-align: right;
+    line-height: 50px;
+    padding: 0px;
+}
+
+ul#fields li{
+    list-style: none;
+    display: inline-block;
+    border-left: 2px solid #303f4e;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.fade{
+    opacity: 0.5;
+}
+ul#fields li:hover{
+    color: white;
+    background-color: #303f4e;
+    opacity: 0.5;
+
+}
+
+#fLogo{
+    float:left;
+}
+
+/*Banner*//*-----------------------------------------------------------------------*/
+
+div#banner{
+    color: white;
+    position: relative;
+}
+
+div#banner #bannerImg{
+    width: 1400px;
+    height: 650px;
+    opacity: 0.5;
+}
+
+div#banner #bannerTitle{
+    color:white;
+    position: absolute;
+    top: 10%;
+    right:43%;
+    font-size: 30px;
+
+}
+
+div#banner p{
+    position: absolute;
+    color: white;
+    top: 20%;
+    text-align: center;
+    right: 28%;
+}
