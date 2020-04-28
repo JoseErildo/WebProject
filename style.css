@@ -5,7 +5,6 @@ body{
     margin:0px;
     height: 100%;
     width: 100%;
-    overflow:hidden;
     font-family: 'Oswald';
 }
 
@@ -28,15 +27,15 @@ ul#fields li{
     border-left: 2px solid #303f4e;
     border-top: none;
     border-bottom: none;
-    padding-left: 10px;
-    padding-right: 10px;
-
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
 }
 
 .fade{
     opacity: 0.5;
 }
-ul#fields li:hover{
+ul#fields li.mHover:hover{
     color: white;
     background-color: #303f4e;
     opacity: 0.5;
@@ -44,7 +43,10 @@ ul#fields li:hover{
 }
 
 #fLogo{
-    float:left;
+    position: absolute;
+    left: 0px;
+    top:3px;
+
 }
 
 /*Banner*//*-----------------------------------------------------------------------*/
@@ -55,24 +57,57 @@ div#banner{
 }
 
 div#banner #bannerImg{
-    width: 1400px;
-    height: 650px;
+    width: 100%;
+    height: 600px;
     opacity: 0.5;
 }
 
 div#banner #bannerTitle{
-    color:white;
     position: absolute;
-    top: 10%;
-    right:43%;
+    top: 15%;
+    right: 43%;
     font-size: 30px;
-
 }
 
 div#banner p{
+    line-height: 1;
+
+}
+
+div#banner #bannerP{
     position: absolute;
-    color: white;
-    top: 20%;
+    top: 27%;
     text-align: center;
-    right: 28%;
+    right: 27%;
+    color: #acacac;
+}
+
+div#banner button{
+    background-color: #f18538;
+    position: absolute;
+    top: 60%;
+    height: 45px;
+    width: 150px;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 20px;
+    right: 43%;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: none;
+}
+
+
+#subBannerButton{
+    border-radius: 5px;
+    height: 35px;
+    width: 90px;
+    background-color: #4c7293;
+    border: none;
+    font-family: 'Oswald';
+    color: white;
+    position: absolute;
+    top: 96%;
+    right: 45.5%;
+    font-weight: bolder;
 }
