@@ -29,7 +29,6 @@ ul#fields li{
     border-bottom: none;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0px;
 }
 
 .fade{
@@ -110,4 +109,65 @@ div#banner button{
     top: 96%;
     right: 45.5%;
     font-weight: bolder;
+}
+
+/*Section*//*------------------*/
+
+/*Basic Informations*/
+
+div#basicInformations{
+    background-color: white;
+    text-align: center;
+}
+
+div#basicInformations figure{
+    display: inline-block;
+}
+
+div#basicInformations p{
+    font-size:11px;
+    color: #acacac;
+}
+
+div#basicInformations .titleImg{
+    color: #454545;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+div#basicInformations figure img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+
+/*Div Our Company ---------------------------*/
+
+div#ourCompany {
+    text-align: center;
+    color: #acacac;
+    position: relative;
+}
+
+h2{
+    color: #ff9901;
+    margin-left: 30px;
+}
+
+div#ourCompany figure{
+    display: inline-block;
+}
+
+div#ourCompany img{
+    border: 10px solid rgb(233, 228, 228);
+}
+
+/*Map Where We Are --------------------------------*/
+div#whereweare{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    padding-top: 0px;
 }
