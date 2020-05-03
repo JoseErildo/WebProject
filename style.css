@@ -164,9 +164,26 @@ div#ourCompany img{
     border: 10px solid rgb(233, 228, 228);
 }
 
+/*Contact Us -------------------------------------- */
+div#contactUs{
+    background-color: white;
+}
+
+form#formContact{
+    margin-left: 20px;
+}
+
+fieldset p{
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+fieldset#fieldSex p input{
+    float: right;
+}
+
 /*Map Where We Are --------------------------------*/
 div#whereweare{
-    background-color: white;
     text-align: center;
     padding: 10px;
     padding-top: 0px;
